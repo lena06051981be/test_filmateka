@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./images/Icon-film.svg" />
-    <title>Filmoteka</title>
+    <title>Library</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -13,20 +13,18 @@
     <script type="module" src="./index.js"></script>
   </head>
 
-  <body class="light-theme">
+  <body class="page__body light-theme">
     <!-- ❗️❗️❗️ Add partials like so for every page -->
     <include src="./partials/preloader.html"></include>
-    <include src="./partials/header.html"></include>
-    <main>
-      <include src="./partials/testButttons.html"></include>
+    <include src="./partials/header_lib.html"></include>
+    <include src="./partials/modal-card.html"></include>
+    <include src='./partials/modal-trailer.html'></include>
+    <include src="./partials/testButttons.html"></include>
+    <include src="./partials/gallery.html"></include>
+    <include src="./partials/pagination.html"></include>
+    <include src="./partials/button-back.html"></include>
 
-      <include src="./partials/modal-card.html"></include>
-      <include src="./partials/modal-trailer.html"></include>
-      <include src="./partials/coming-soon.html"></include>
-      <include src="./partials/gallery.html"></include>
-      <include src="./partials/pagination.html"></include>
-      <include src="./partials/button-back.html"></include>
-    </main>
+    <main></main>
     <include src="./partials/footer.html"></include>
     <include src="./partials/footer-modal.html"></include>
   </body>
